@@ -1,0 +1,203 @@
+/* .food-menu-item{
+    float: left;
+    width:25%;
+    opacity: 0.6;
+    margin: 20px 5px 0px 115px;
+}
+.food-menu-item:hover{
+    border: 1px solid #777;
+    opacity: 1.0;
+    background-color: rgb(170, 151, 151);
+}
+.food-img{
+    width: 100%;
+    height: auto;
+}
+.food-container{
+    display: table;
+}
+.table{
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    background-image: url(https://i.pinimg.com/originals/3f/48/34/3f483410b8f2f1eb486efa7142deefc3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.top{
+    text-align: right;
+}
+a{text-decoration: none;}
+a{color: rgb(167, 140, 71);}
+a{margin: 15px 10px 0px 0px;}
+.food-menu-heading{
+    margin: 25px 0px 0px 0px;
+    text-align: center;
+    color: rgb(167, 140, 71);
+    font-style: italic;
+    font-family: Verdana, cursive, Tahoma, sans-serif;
+    font-size: 25px;
+    text-decoration: underline rgb(167, 140, 71);
+}
+.Italian{
+    margin-left: 110px;
+    color: rgb(167, 140, 71);
+} */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  .form-container {
+    background-color: #ffffff;
+    margin: auto;
+    padding: 20px;
+    width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  label {
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="datetime-local"],
+  input[type="number"],
+  input[type="file"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #fff;
+    background-image: none;
+  }
+  
+  .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  .cancel {
+    background-color: #f44336;
+  }
+  
+  .cancel:hover {
+    background-color: #da190b;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .form-container {
+      width: 90%;
+    }
+  }
+  body {
+    background-image: url(https://thumbs.dreamstime.com/z/food-donations-people-donation-blue-background-top-view-flat-lay-coronavirus-182638536.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+    color: #444444;
+}
+
+.form-container {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.form-container h2.center {
+    text-align: center;
+    margin-top: 0px;
+}
+
+.form-container input[type=text],
+.form-container input[type=password],
+.form-container select,
+.form-container input[type=number],
+.form-container input[type=datetime-local],
+.form-container input[type=file],
+.form-container input[type=email],
+.form-container textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.form-container input[type=submit],
+.form-container button[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form-container input[type=submit]:hover,
+.form-container button[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.form-container .cancel {
+    background-color: #ff5e5e;
+}
+
+.form-container .cancel:hover {
+    background-color: #ff2f2f;
+}
+.top-con{
+  opacity: 100;
+  color: white;
+  text-align: right;
+}
+a{color:white}
+a{text-decoration: none;}
+a{margin: 15px 10px 0px 0px;}
